@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .container-fluid{
+      background-color:magenta;
+    }
+    .container-fluid ul li:hover{
+      background-color: black;
+      color: #fff;
+      
+    }
+    .container{
+      background-color:rgb(10,20,100);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="dropdown">
+      <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Disabled<span class="caret"></span></a>
+      <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">D1</a>
+        <a href="#" class="dropdown-item">D1</a>
+        <a href="#" class="dropdown-item">D1</a>
+        <a href="#" class="dropdown-item">D1</a>
+        
+      </div>
+    </li>
+  </ul>
+</div>
+  <div class="container">
+  <h2>Navigation Tabs</h2>
+  <p>Turn the nav menu into navigation tabs with the .nav nav-tabs class. Add the active class to the active/current link. If you want the tabs to be togglable, see the last example on the tutorial page.</p>
+
+</body>
+</html>
